@@ -1,249 +1,225 @@
-# 🎯 C# .NET Track — Level 0 Roadmap
-
-> **3-Month Learning Plan** | From Zero to OOP-Ready
+# 🌍 Open Source Contribution Roadmap
+### 3-Month Learning & Contribution Plan
 
 ---
 
-## 🏁 Goal
+## 📌 Goal
 
-Learn C# from scratch — covering the full language fundamentals, OOP, Collections, and Generics, with hands-on exercises from w3resource throughout the journey, before moving on to LINQ.
+> اتعلم Open Source كـ فكرة، concept، وـ resource، وتعمل أول مساهمة حقيقية — تبني project مع team، تفتح issues، وتعمل PRs.
 
 ---
 
 ## 🗓️ Timeline Overview
 
-| Sprint   | Duration    | Focus                                                                              |
-|----------|-------------|------------------------------------------------------------------------------------|
-| Sprint 1 | Week 1–2    | C# Basics — Variables, Types, Conditions                                           |
-| Sprint 2 | Week 3–4    | Loops + Arrays                                                                     |
-| Sprint 3 | Week 5–6    | Strings + Functions + Math + Recursion                                             |
-| Sprint 4 | Week 7–8    | Exceptions + File Handling + Sorting + Regex + DateTime                            |
-| Sprint 5 | Week 9–10   | OOP Part 1 — Classes, Encapsulation, Constructors, Inheritance, Polymorphism       |
-| Sprint 6 | Week 11–12  | OOP Part 2 — Abstraction, Interfaces, Collections, Generics                        |
+| Sprint | Duration | Focus |
+|--------|----------|-------|
+| Sprint 1 | Week 1–2 (3 Sessions) | Know About Open Source |
+| Sprint 2 | Week 3–4 | First Contribution: 2 Issues |
+| Sprint 3 | Week 5–8 | Build & Collaborate on a Project |
+| Sprint 4 | Week 9–12 | Own PRs, Code Review & Community |
 
 ---
 
-## 🟢 Sprint 1 — C# Basics
+## 🟢 Sprint 1 — Know About Open Source
+**Duration:** 2 Weeks | 3 Sessions
 
-**Duration:** Week 1–2 &nbsp;|&nbsp; 1 Guided Session
+### 🎯 Goal
+فهم Open Source كـ فكرة وازاي تشارك فيه.
 
-**Goal:** Write C# confidently and work with types and conditions.
+### 📚 Sessions
 
-### Topics
+#### Session 1 — What is Open Source?
+- [ ] ما هو Open Source وليه مهم
+- [ ] الفرق بين Open Source و Closed Source
+- [ ] أمثلة على مشاريع كبيرة: Linux, VS Code, React, Python
+- [ ] مفهوم الـ License (MIT, Apache, GPL)
+- [ ] إزاي بيشتغل الـ community
 
-- Variables & Data Types (`int`, `double`, `string`, `bool`, `char`)
-- Type Casting & Conversion
-- Operators (Arithmetic, Comparison, Logical)
-- Console I/O
-- Conditional Statements (`if`, `else if`, `else`, `switch`)
-- Ternary Operator
-
-### w3resource Exercises
-
-| Topic                  | Exercises                                                                                    | Target     |
-|------------------------|----------------------------------------------------------------------------------------------|------------|
-| Basic                  | [104 exercises](https://www.w3resource.com/csharp-exercises/basic/index.php)                 | First 50   |
-| Data Types             | [11 exercises](https://www.w3resource.com/csharp-exercises/data-types/index.php)             | All 11     |
-| Conditional Statements | [25 exercises](https://www.w3resource.com/csharp-exercises/conditional-statement/index.php)  | All 25     |
+**Resources:**
+- [opensource.guide](https://opensource.guide)
+- [firstcontributions.github.io](https://firstcontributions.github.io)
 
 ---
 
-## 🟡 Sprint 2 — Loops + Arrays
-
-**Duration:** Week 3–4 &nbsp;|&nbsp; 1 Guided Session
-
-**Goal:** Master loops and work with arrays.
-
-### Topics
-
-- `for`, `while`, `do-while`, `foreach`
-- `break` & `continue`
-- Nested Loops + Patterns
-- Arrays (1D, 2D)
-- Array built-in methods (`Sort`, `Reverse`, `Max`, `Min`)
-
-### w3resource Exercises
-
-| Topic    | Exercises                                                                             | Target               |
-|----------|---------------------------------------------------------------------------------------|----------------------|
-| Basic    | [104 exercises](https://www.w3resource.com/csharp-exercises/basic/index.php)          | Exercises 51–104     |
-| For Loop | [83 exercises](https://www.w3resource.com/csharp-exercises/for-loop/index.php)        | All 83               |
-| Array    | [41 exercises](https://www.w3resource.com/csharp-exercises/array/index.php)           | All 41               |
+#### Session 2 — Git & GitHub for Open Source
+- [ ] Git basics: clone, branch, commit, push
+- [ ] GitHub: Fork, Star, Watch
+- [ ] فهم الـ repository structure
+- [ ] قراءة `README.md` و `CONTRIBUTING.md`
+- [ ] فهم الـ Issues و Labels
 
 ---
 
-## 🔵 Sprint 3 — Strings + Functions + Math + Recursion
+#### Session 3 — How to Contribute?
+- [ ] ازاي تختار project مناسب
+- [ ] نوع الـ Issues: `good first issue`, `bug`, `documentation`, `enhancement`
+- [ ] خطوات الـ contribution كاملة
+- [ ] عمل Pull Request صح
+- [ ] Code Review — ازاي تتعامل مع feedback
 
-**Duration:** Week 5–6 &nbsp;|&nbsp; 1 Guided Session
-
-**Goal:** Work with strings, build functions, and understand recursion.
-
-### Topics
-
-- String methods (`ToUpper`, `Trim`, `Replace`, `Substring`, `Split`, `Contains`)
-- String formatting & interpolation
-- Methods — parameters, return types, overloading
-- Optional & named parameters
-- `Math` class (`Pow`, `Sqrt`, `Abs`, `Round`, `Max`)
-- Recursion — base case & recursive case
-
-### w3resource Exercises
-
-| Topic     | Exercises                                                                              | Target  |
-|-----------|----------------------------------------------------------------------------------------|---------|
-| String    | [68 exercises](https://www.w3resource.com/csharp-exercises/string/index.php)           | All 68  |
-| Function  | [10 exercises](https://www.w3resource.com/csharp-exercises/function/index.php)         | All 10  |
-| Math      | [24 exercises](https://www.w3resource.com/csharp-exercises/math/index.php)             | All 24  |
-| Recursion | [15 exercises](https://www.w3resource.com/csharp-exercises/recursion/index.php)        | All 15  |
+**Checklist قبل أي PR:**
+- [ ] قرأت الـ CONTRIBUTING.md
+- [ ] الكود بيشتغل locally
+- [ ] الـ branch اسمه descriptive
+- [ ] الـ commit message واضح
+- [ ] الـ PR description بيشرح ايه اللي عملته ولييه
 
 ---
 
-## 🟠 Sprint 4 — Exceptions + Files + Sorting + Regex + DateTime
+## 🟡 Sprint 2 — First Contributions
+**Duration:** Week 3–4
 
-**Duration:** Week 7–8 &nbsp;|&nbsp; 1 Guided Session
+### 🎯 Goal
+تساهم في **2 Issues** في مشاريع حقيقية.
 
-**Goal:** Complete the remaining core topics and be ready for OOP.
+### 🔍 ازاي تلاقي issues مناسبة
 
-### Topics
+**المواقع دي بتساعدك:**
+- [goodfirstissue.dev](https://goodfirstissue.dev)
+- [up-for-grabs.net](https://up-for-grabs.net)
+- [codetriage.com](https://codetriage.com)
 
-- Exception Handling (`try`, `catch`, `finally`, Custom Exceptions)
-- File Handling (`File`, `StreamReader`, `StreamWriter`)
-- Searching & Sorting Algorithms (Linear, Binary, Bubble, Selection)
-- Regular Expressions (`Regex` class, pattern matching)
-- DateTime (formatting, arithmetic)
-- Structure (`struct`)
-- Stack (`Push`, `Pop`, `Peek`)
+### 📋 Contribution Tracker
 
-### w3resource Exercises
+| # | Repository | Issue Title | Type | Status | PR Link |
+|---|-----------|-------------|------|--------|---------|
+| 1 | | | | 🔄 In Progress | |
+| 2 | | | | ⏳ Pending | |
 
-| Topic               | Exercises                                                                                                  | Target  |
-|---------------------|------------------------------------------------------------------------------------------------------------|---------|
-| Exception Handling  | [13 exercises](https://www.w3resource.com/csharp-exercises/exception-handling/index.php)                   | All 13  |
-| File Handling       | [15 exercises](https://www.w3resource.com/csharp-exercises/file-handling/index.php)                        | All 15  |
-| Searching & Sorting | [11 exercises](https://www.w3resource.com/csharp-exercises/searching-and-sorting-algorithm/index.php)      | All 11  |
-| Regular Expression  | [9 exercises](https://www.w3resource.com/csharp-exercises/regular-expression/index.php)                    | All 9   |
-| Date Time           | [57 exercises](https://www.w3resource.com/csharp-exercises/datetime/index.php)                             | All 57  |
-| Structure           | [10 exercises](https://www.w3resource.com/csharp-exercises/structure/index.php)                            | All 10  |
-| Stack               | [27 exercises](https://www.w3resource.com/csharp-exercises/stack/index.php)                                | All 27  |
+**Status Legend:** ⏳ Pending → 🔄 In Progress → 👀 In Review → ✅ Merged
+---
+
+## 🔵 Sprint 3 — Build a Team Project
+**Duration:** Week 5–8
+
+### 🎯 Goal
+تبني project مع team ويبقى Open Source على GitHub.
+
+### 📁 Project Structure
+
+```
+my-project/
+├── README.md          ← شرح المشروع
+├── CONTRIBUTING.md    ← ازاي الناس تساهم
+├── LICENSE            ← نوع الـ license
+├── .github/
+│   ├── ISSUE_TEMPLATE/
+│   │   ├── bug_report.md
+│   │   └── feature_request.md
+│   └── PULL_REQUEST_TEMPLATE.md
+├── src/               ← الكود
+└── docs/              ← الـ documentation
+```
+
+### 🏷️ GitHub Setup Checklist
+- [ ] إنشاء الـ repository على GitHub
+- [ ] كتابة README.md واضح
+- [ ] إضافة LICENSE
+- [ ] إنشاء `CONTRIBUTING.md`
+- [ ] إعداد Issue Templates
+- [ ] إضافة Labels: `bug`, `feature`, `good first issue`, `documentation`
+- [ ] إنشاء Project Board (Kanban)
+- [ ] دعوة الـ team كـ collaborators
+
+### 👥 Team Workflow
+
+```
+main branch (protected)
+    ↑
+develop branch
+    ↑
+feature/fix branches ← كل شخص بيشتغل هنا
+```
+
+**Branch Naming Convention:**
+```
+feat/add-login-page
+fix/broken-navbar
+docs/update-readme
+refactor/cleanup-utils
+```
+
+### 📌 Issues to Open in Your Project (Minimum 5)
+- [ ] `feat: Setup project structure`
+- [ ] `docs: Write README`
+- [ ] `feat: Add main feature X`
+- [ ] `fix: Handle edge case Y`
+- [ ] `docs: Add CONTRIBUTING guide`
 
 ---
 
-## 🟣 Sprint 5 — OOP Part 1
+## 🟣 Sprint 4 — Code Review, PRs & Community
+**Duration:** Week 9–12
 
-**Duration:** Week 9–10 &nbsp;|&nbsp; 1 Guided Session
+### 🎯 Goal
+تبقى active community member — تعمل PR review، تشارك في discussions، وتوصل لـ 5+ contributions.
 
-**Goal:** Build classes correctly and apply Encapsulation, Inheritance, and Polymorphism.
+### 🔁 PR Review Skills
+- [ ] ازاي تقرأ code بتاع حد تاني
+- [ ] تكتب feedback constructive
+- [ ] تستخدم GitHub review features: Comment, Approve, Request Changes
+- [ ] تفرق بين blocking و non-blocking feedback
 
-### Topics
+**Good PR Review Comment:**
+```
+✅ "This function works, but consider extracting it 
+    for reusability — not blocking though!"
+    
+❌ "This is wrong, rewrite it."
+```
 
-- Classes & Objects
-- Fields, Methods, Properties
-- Constructors (Default, Parameterized, Copy)
-- `this` keyword
-- Encapsulation — Access Modifiers (`public`, `private`, `protected`) + get/set
-- `static` keyword
-- Inheritance — `base` keyword
-- Method Overriding — `virtual` / `override`
-- Polymorphism
+### 📊 Final Goals Tracker
 
-### Mini Project
-
-Build a mini project combining Classes, Constructors, and Inheritance.
-
-**Example: Student Management System**
-
-- `Person` class inherited by `Student`
-- Each student has `name`, `age`, `GPA`
-- A method that prints student info and calculates the grade
-
----
-
-## ⚫ Sprint 6 — OOP Part 2
-
-**Duration:** Week 11–12 &nbsp;|&nbsp; 1 Guided Session
-
-**Goal:** Complete OOP with Abstraction and Interfaces, then work with Collections and Generics.
-
-### Topics
-
-- `abstract` classes & methods
-- `interface` — multiple interface implementation
-- `sealed` keyword
-- `List<T>`
-- `Dictionary<TKey, TValue>`
-- `Queue<T>` — FIFO
-- `HashSet<T>` — No Duplicates
-- Generic Methods & Classes
-- Constraints (`where T : IComparable<T>`, `where T : new()`)
-
-### Mini Project
-
-Build a mini project that brings everything together.
-
-**Example: Library System**
-
-- `abstract` class `LibraryItem` inherited by `Book` and `Magazine`
-- Interface `ISearchable` with a `Search()` method
-- `List<Book>` to store books
-- `Dictionary<string, Book>` to search by title
+| Goal | Target | Achieved |
+|------|--------|----------|
+| Issues Contributed To | 2+ | |
+| PRs Merged | 3+ | |
+| Project Repo Created | 1 | |
+| Issues Opened in Own Project | 5+ | |
+| PR Reviews Done | 2+ | |
+| Stars Received | any 🌟 | |
 
 ---
 
-## 🛠️ Setup
+## 🛠️ Essential Tools
 
-| Tool        | Recommended                                      |
-|-------------|--------------------------------------------------|
-| IDE         | Visual Studio 2022 Community (free) or VS Code + C# Dev Kit Extension |
-| .NET SDK    | .NET 8 (LTS)                                     |
-| Practice    | [w3resource.com/csharp-exercises](https://www.w3resource.com/csharp-exercises/) |
+| Tool | Purpose |
+|------|---------|
+| Git | Version control |
+| GitHub | Code hosting & collaboration |
+| VS Code | Code editor |
+| GitHub CLI (`gh`) | GitHub from terminal |
+| Markdown | Writing READMEs & docs |
 
 ---
 
-## 📊 Progress Tracker
+## 📖 Learning Resources
 
-### Sprint 1 — Basics
-- [ ] Basic → ___/104
-- [ ] Data Types → ___/11
-- [ ] Conditional Statements → ___/25
+### باللغة العربية
+- [Elzero Web School - Git & GitHub](https://elzero.org)
+- [Arabic Programmers Discord](https://discord.gg/arabicprogrammers)
 
-### Sprint 2 — Loops + Arrays
-- [ ] For Loop → ___/83
-- [ ] Array → ___/41
+### بالإنجليزي
+- [The Odin Project](https://www.theodinproject.com)
+- [GitHub Skills](https://skills.github.com)
+- [How to Contribute to Open Source](https://opensource.guide/how-to-contribute)
+- [First Contributions Repo](https://github.com/firstcontributions/first-contributions)
 
-### Sprint 3 — Strings + Functions + Math + Recursion
-- [ ] String → ___/68
-- [ ] Function → ___/10
-- [ ] Math → ___/24
-- [ ] Recursion → ___/15
-
-### Sprint 4 — Exceptions + Files + Sorting + Regex + DateTime
-- [ ] Exception Handling → ___/13
-- [ ] File Handling → ___/15
-- [ ] Searching & Sorting → ___/11
-- [ ] Regular Expression → ___/9
-- [ ] Date Time → ___/57
-- [ ] Structure → ___/10
-- [ ] Stack → ___/27
-
-### Sprint 5 — OOP Part 1
-- [ ] Mini Project — Student Management System ✍️
-
-### Sprint 6 — OOP Part 2
-- [ ] Mini Project — Library System 🏗️
+### فيديوهات
+- "Git and GitHub for Beginners" — freeCodeCamp (YouTube)
+- "Open Source Contribution for Beginners" — Traversy Media
 
 ---
 
 ## 🏆 Milestones
 
-| Week    | Milestone                                                                |
-|---------|--------------------------------------------------------------------------|
-| Week 2  | ✅ C# Basics — variables, types, conditions                              |
-| Week 4  | ✅ Loops + Arrays done                                                   |
-| Week 6  | ✅ Strings + Functions + Math + Recursion done                           |
-| Week 8  | ✅ All w3resource exercises completed 🎉                                 |
-| Week 10 | ✅ OOP Part 1 — Classes, Encapsulation, Inheritance                      |
-| Week 12 | ✅ OOP Part 2 — Abstract, Interface, Collections, Generics → Ready for LINQ! 🚀 |
+```
+Week 2  ✅ → Understand Open Source + Git basics
+Week 4  ✅ → First 2 contributions merged
+Week 8  ✅ → Team project live on GitHub
+Week 12 ✅ → 5+ contributions + active community member
+```
 
 ---
 
-*C# .NET Track — Level 0 | 3-Month Plan*
+*Made with ❤️ | Open Source Journey — 3 Month Plan*
