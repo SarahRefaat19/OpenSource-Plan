@@ -79,12 +79,6 @@
 - [up-for-grabs.net](https://up-for-grabs.net)
 - [codetriage.com](https://codetriage.com)
 
-### 📋 Contribution Tracker
-
-| # | Repository | Issue Title | Type | Status | PR Link |
-|---|-----------|-------------|------|--------|---------|
-| 1 | | | | 🔄 In Progress | |
-| 2 | | | | ⏳ Pending | |
 
 **Status Legend:** ⏳ Pending → 🔄 In Progress → 👀 In Review → ✅ Merged
 ---
@@ -221,5 +215,3 @@ Week 12 ✅ → 5+ contributions + active community member
 ```
 
 ---
-
-*Made with ❤️ | Open Source Journey — 3 Month Plan*
